@@ -8,7 +8,7 @@ int main() {
     
     
     for(int i=0;i<a;i++){
-        scanf("%c",&b);
+        scanf(" %c",&b);
         if('a'<=b && b<='z'){
             count1++;
             count2=0;
