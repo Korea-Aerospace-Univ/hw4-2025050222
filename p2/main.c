@@ -14,7 +14,7 @@ int main() {
             count2=0;
             
         }
-        else if('0'<=b||b<='9'){
+        else if('0'<=b&&b<='9'){
             count2++;
             count1=0;
         }
@@ -22,8 +22,8 @@ int main() {
             count2=0;
             count1=0;
         }
-        if (count1 > max1) max1 = count1;
-        if (count2 > max2) max2 = count2;
+        if (count1>max1) max1=count1;
+        if (count2>max2) max2=count2;
     }
     printf("%d\n",max1);
     printf("%d\n",max2);    
